@@ -1,0 +1,174 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Rubik', sans-serif;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.bg {
+    background-color: hsl(270, 20%, 96%);
+    height: 100vh;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+.purple {
+    width: 95%;
+    height: 100%;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(hsl(293, 100%, 63%)), to(hsl(264, 100%, 61%)));
+    background-image: -o-linear-gradient(hsl(293, 100%, 63%), hsl(264, 100%, 61%));
+    background-image: linear-gradient(hsl(293, 100%, 63%), hsl(264, 100%, 61%));
+    border-radius: 0px 0px 50% 50%;
+    top: -100px;
+    left: -150px;
+}
+
+.light-purple {
+    height: 100%;
+    width: 95%;
+    background-color: rgba(240, 236, 241, 0.4);
+    border-radius: 50% 50% 0px 0px;
+    right: -150px;
+    bottom: -100px;
+}
+
+.container {
+    width: 80%;
+}
+
+.mobile {
+    width: 250px;
+    height: 500px;
+    background-color: white;
+    border-radius: 30px;
+    padding: 10px;
+}
+
+.inner-mobile {
+    height: 100%;
+    border-radius: 30px;
+    background-color: hsl(270, 20%, 96%);
+}
+
+.center {
+    margin: auto;
+}
+
+.paragraph {
+    color: hsl(270, 7%, 64%);
+}
+
+.main-heading {
+    color: hsl(271, 36%, 24%);
+}
+
+.mobile-head {
+    background-image: -webkit-gradient(linear, left top, right top, from(hsl(293, 100%, 63%)), to(hsl(264, 100%, 61%)));
+    background-image: -o-linear-gradient(left, hsl(293, 100%, 63%), hsl(264, 100%, 61%));
+    background-image: linear-gradient(to right, hsl(293, 100%, 63%), hsl(264, 100%, 61%));
+    border-radius: 30px 30px 10px 10px;
+    padding: 0px 0px 3px 0px;
+}
+
+.upper-div {
+    background-color: white;
+    width: 120px;
+    height: 15px;
+    border-radius: 0px 0px 10px 10px;
+}
+
+.avatar img {
+    width: 30px;
+    height: 30px;
+    border: 1px white solid;
+    border-radius: 50%;
+}
+
+.font {
+    font-size: 12px;
+}
+.font-smaller{
+    font-size: 10px;
+}
+.message{
+    background-color: rgb(237,229,244);
+color: hsl(276, 55%, 52%);
+border-radius: 10px 10px 10px 0px;
+}
+
+.message-left{
+    background-color: white;
+    color: hsl(271, 15%, 43%);
+    border-radius: 10px 10px 0px 10px;
+}
+.dogs img{
+    width: 40px ;
+    height: 40px;
+    border-radius: 10px;
+}
+.circle{
+    width: 20px;
+    height: 20px;
+    border: 1px white solid;
+    border-radius: 50%;
+    
+}
+.buttom-message{
+    background-image: -webkit-gradient(linear, left top, right top, from(hsl(293, 100%, 63%)), to(hsl(264, 100%, 61%)));
+    background-image: -o-linear-gradient(left, hsl(293, 100%, 63%), hsl(264, 100%, 61%));
+    background-image: linear-gradient(to right, hsl(293, 100%, 63%), hsl(264, 100%, 61%));
+    border-radius: 10px 10px 10px 0px;
+}
+.typing{
+    border-radius: 20px ;
+    color: hsl(271, 15%, 43%);
+}
+.button-color{
+   color: hsl(271, 36%, 24%);
+}
+@media screen and (max-width:576px) {
+    .col-xs-12 {
+        width: 100%;
+    }
+
+    .center {
+        margin: auto;
+    }
+
+    .purple {
+        top: 0px
+    }
+
+    .light-purple {
+        bottom: 0px;
+    }
+}
+
+@media screen and (max-width:768px) {
+
+    .purple {
+        top: 0px
+    }
+
+    .light-purple {
+        bottom: 0px;
+    }
+}
+
+
+/* */
